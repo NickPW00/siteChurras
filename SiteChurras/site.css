@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    border-top: solid red 1px;
+    border-bottom: solid red 1px;
+    width: 100%;
+}
+header ul{
+    display:flex;
+    justify-content: space-evenly;
+    border-top: solid black 2px;
+    padding: 10px;
+    margin: 0 5px;
+}
+header li{
+    list-style-type: none;
+}
+
+
+
+/* fazer um modal com timeout */
+
+/* https://www.blackhornmeats.com.br/categoria/wagyu?gclid=Cj0KCQiA-JacBhC0ARIsAIxybyNi9xs5wVOTO0s9mNDuRtXRPYv4YyJd2-I1mt3d6EhNIanBCFg7J44aAjXmEALw_wcB */
