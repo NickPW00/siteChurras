@@ -1,11 +1,32 @@
 body{
     margin: 0;
 }
+#blackFriday{
+    border: 5px solid black;
+    display: flex;
+    height: 35px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:black;
+    color:white
+}
+#blackFriday img{
+    width: 20px;
+    filter: invert();
+}
 header{
-    position: fixed;
-    border-top: solid red 1px;
+    position: sticky;
+    top: 0;
+    /* border-top: solid red 1px; */
     border-bottom: solid red 1px;
     width: 100%;
+    background-color: rgb(200, 56, 56);
+    box-sizing: border-box;
+    border-bottom: #500707 solid 10px;
+    border-top: #500707 solid 10px;
 }
 header ul{
     display:flex;
@@ -17,8 +38,34 @@ header ul{
 header li{
     list-style-type: none;
 }
-
-
+#pieceH1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    font-family: Garamond;
+    color: white
+}
+#pieceH1 p{
+    width: 185px;
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    border: #500707 solid 1px;
+}
+#pieceH1 h1{
+    width: 405px;
+    height: auto;
+}
+footer{
+    border-top: #500707 solid 10px;
+    border-bottom: #500707 solid 10px;
+    width: 100%;
+    height: 400px;
+}
+.artigo{
+    display: flex;
+}
 
 /* fazer um modal com timeout */
 
