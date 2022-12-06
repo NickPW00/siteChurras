@@ -57,16 +57,70 @@ header li{
     width: 405px;
     height: auto;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+figure{
+    width: 247px;
+    height: 204px;
+    border: solid black 2px;
+}
 footer{
     border-top: #500707 solid 10px;
     border-bottom: #500707 solid 10px;
     width: 100%;
     height: 400px;
+    background-color: rgb(200, 56, 56);
 }
 .artigo{
     display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
 }
+.iv1, .iv2, .iv3, .iv4, .iv5{
+    position: absolute;
+}
+.iv1{
+    top: 70px;
+}
+.iv2{
+    top: 900px
+}
+.iv3{
+    top: 1495px;
+}
+.iv4{
+    top: 2090px;
+}
+.iv5{
+    top: 2680px
+}
+
+
 
 /* fazer um modal com timeout */
 
 /* https://www.blackhornmeats.com.br/categoria/wagyu?gclid=Cj0KCQiA-JacBhC0ARIsAIxybyNi9xs5wVOTO0s9mNDuRtXRPYv4YyJd2-I1mt3d6EhNIanBCFg7J44aAjXmEALw_wcB */
+/* https://pt.dreamstime.com/carne-fresca-crua-de-pesco%C3%A7o-bovino-em-quadro-escuro-um-peda%C3%A7o-num-corte-image182311901
+https://pt.dreamstime.com/foto-de-stock-ac%C3%A9m-image45546345
+https://pt.dreamstime.com/carne-de-bovino-marmoreada-preta-bife-angus-boi-cortado-em-madeira-escura-antiga-plano-fundo-mesa-com-espa%C3%A7o-c%C3%B3pia-para-preto-image226549537
+https://pt.dreamstime.com/corte-de-carne-peito-cru-preto-angus-beef-sobre-fundo-mesa-escura-antiga-em-madeira-plano-superior-com-espa%C3%A7o-c%C3%B3pia-para-texto-image250774918
+https://www.google.com/search?q=Paleta+bovina+cru&sxsrf=ALiCzsaMOS54qpXgUtGIbsvLC23FIfRA6A:1669993981965&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjIqMmwnNv7AhUYp5UCHXfOBDIQ_AUoAnoECAIQBA&biw=1366&bih=625&dpr=1#imgrc=HVXYVmsYDxqgAM
+https://www.google.com/search?q=fraldinha+cru&sxsrf=ALiCzsZYC3p1lQJtHuMSDcdbOgHxkDMg_A:1669994030721&source=lnms&tbm=isch&sa=X&ved=2ahUKEwibienHnNv7AhXOrpUCHVoFASUQ_AUoAnoECAIQBA&biw=1366&bih=625&dpr=1#imgrc=5J5R-a8MRPxflM
+https://www.google.com/search?q=ponta+de+agulha+carne&sxsrf=ALiCzsaIzve_iu9UqofEYcWUBGWdU2hD2w:1669994118495&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi3utbxnNv7AhXapZUCHa1HCbYQ_AUoAnoECAIQBA&biw=1366&bih=625&dpr=1#imgrc=T9vl_WqPnBtdsM
+https://pt.dreamstime.com/bife-bruto-preto-puro-fil%C3%A9-mignon-rib-eye-ou-striploin-de-cowboy-fundo-madeira-vista-superior-image189622329
+https://pt.dreamstime.com/fil%C3%A9-de-bife-costela-carne-cria%C3%A7%C3%A3o-biol%C3%B3gica-fundo-preto-image182286016
+https://www.google.com/search?q=contra+fil%C3%A9&sxsrf=ALiCzsavbprVFnFPcpWL3f6AQHglxghMLA:1669994282844&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidx4XAndv7AhXOvJUCHZ_HBZQQ_AUoAnoECAIQBA&biw=1366&bih=625&dpr=1#imgrc=bDK3-L33BNNj7M
+https://www.google.com/search?q=Capa+de+fil%C3%A9&sxsrf=ALiCzsaIb04P_C5ZfpL9cxYM9HvFo09koA:1669994361083&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj3hK3lndv7AhUtqpUCHUDwD28Q_AUoAXoECAEQAw&biw=1366&bih=625&dpr=1#imgrc=dmMbzHu1tluhQM
+https://www.google.com/search?q=Alcatra&sxsrf=ALiCzsZu6xSLCe73fkmmzQKgPD6McrihvQ:1669996021844&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiN4qH9o9v7AhWKrpUCHYzJA2UQ_AUoAnoECAIQBA&biw=1366&bih=625&dpr=1#imgrc=c9EuNfB-X5fzDM
+https://www.google.com/search?q=Patinho+carne&tbm=isch&ved=2ahUKEwjPpbaYpNv7AhXuvJUCHTmOA0wQ2-cCegQIABAA&oq=Patinho+carne&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJ1CaCVi4F2CIGmgAcAB4AIABiQGIAcMGkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Lh6KY8_WMO751sQPuZyO4AQ&bih=625&biw=1366#imgrc=qZTs6Y-uVdieCM
+https://www.google.com/search?q=cox%C3%A3o+duro&sxsrf=ALiCzsZB-Opi7ikIsjJxu3_QdxLjuVVr8g:1669996117322&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj-meWqpNv7AhW_p5UCHUogDjEQ_AUoAXoECAIQAw&biw=1366&bih=625&dpr=1#imgrc=41gaoVz3ThPqHM
+https://www.google.com/search?q=cox%C3%A3o+mole&sxsrf=ALiCzsblVcPkYXm-dfaOD-GNFM_HqfnN_A:1669996175097&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjovavGpNv7AhX0qJUCHd-HBJMQ_AUoAXoECAIQAw&biw=1366&bih=625&dpr=1#imgrc=uAL4fm3Djy2jkM
+https://www.google.com/search?q=Lagarto+carne&sxsrf=ALiCzsbFz_7OI558ACU5nBSPIA4wiy4WmQ:1669996205747&tbm=isch&source=iu&ictx=1&vet=1&fir=DoIwKL849md29M%252Cc0Oo1Nz5kNeWuM%252C%252Fg%252F11bc6mj4dm%253BACHN2Y6q1F-WDM%252C3RYrppgPCc5mcM%252C_%253BRHs5eZYF7AMGBM%252CkLnadzo5ZncXgM%252C_%253BfutHa8_6VcOiuM%252CH5__9x-xq8VVHM%252C_%253BIsGUHNyQrcTGiM%252CFK7bx3XTDXK2yM%252C_&usg=AI4_-kT26Do58C9CxwVySvpYGm6yy_lAMg&sa=X&ved=2ahUKEwjYpPrUpNv7AhWOuJUCHXjRBwIQ_B16BAheEAE#imgrc=DoIwKL849md29M */
+/* https://www.google.com/search?q=m%C3%BAsculo+dianteiro&sxsrf=ALiCzsYzuf6HIIuwk_DKvxxhmqrO4LvKzA:1669996236569&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiGqNPjpNv7AhX6pZUCHWC-BywQ_AUoAXoECAIQAw&biw=1366&bih=625&dpr=1#imgrc=RHBTyGCO6YCftM */
+
+
+
+
